@@ -1,0 +1,1 @@
+a recollection of exercises on callbacks
