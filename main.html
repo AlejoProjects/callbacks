@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheet.css">
+</head>
+<body>
+    <section class="contenedor_preguntas">
+        <h3>Exercise 1</h3>
+        <p>callback message</p>
+        
+        <button id="ej_1"  onclick="process()">begin</button>
+        <p id="val_ingresados"></p>
+        <p id="respuesta1"></p>
+    </section>
+     <section class="contenedor_preguntas">
+        <h3>Exercise 2</h3>
+        <p>typeof variable</p>
+        <div id="input_info_2">
+        <input  id="info_2" type="text" placeholder="variable">
+        <button id="ej_2" onclick="varType(classification)" >typeOf</button>
+        </div>
+        <p id="respuesta2"></p>
+    </section>
+    <section class="contenedor_preguntas">
+        <h3>Exercise 3</h3>
+        <p>se realiza una operación según la operación seleccionada</p>
+        <div class="sub_containers">
+        <input id="Ainfo_4" type="number" placeholder="A">
+        <input id="Binfo_4" type="number" placeholder="B">
+        <div class="flex_cont" id="ej_3">
+            <button  onclick="operations(sum)" >sum</button>
+            <button  onclick="operations(substraction)" >substraction</button>
+            <button  onclick="operations(multiplication)" >multiplication</button>
+            <button  onclick="operations(division)" >division</button>
+            
+        </div>
+    </div>
+        <p id="respuesta3"></p>
+    </section>
+    <section class="contenedor_preguntas">
+        <h3>Exercise 4</h3>
+        <p>capitalizer</p>
+        <div class="sub_containers">
+        <input id="info_4" type="text" placeholder="string">
+        <div class="flex_cont">
+            <button onclick="capitalizer(mayus)" >capitalize</button>
+            <button onclick="capitalizer(minus)" >lower case</button> 
+        </div>
+    </div>
+        
+        <p id="respuesta4"></p>
+    </section>
+    <section class="contenedor_preguntas">
+        <h3>Exercise 5</h3>
+        <p>array</p>
+        <p id="respuesta5"></p>
+    </section>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
